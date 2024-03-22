@@ -7,11 +7,10 @@
   <title>Document</title>
   <!-- TailwindCSS -->
   <link rel="stylesheet" href="css/style.css" />
-
 </head>
 
 <body>
-
+  <!-- Navbar -->
   <nav class="p-4 bg-gray-50">
     <div class="flex flex-wrap items-center justify-between">
       <div class="flex items-center">
@@ -32,6 +31,7 @@
     </div>
   </nav>
 
+  <!-- Main -->
   <div class="flex bg-gray-50">
     <div class="flex items-center justify-center w-1/2 ml-12">
       <div>
@@ -54,151 +54,188 @@
     </div>
   </div>
 
-  <div class="flex bg-white">
-    <div class="flex flex-col items-center justify-center w-full">
-      <h2 class="mt-20 text-xl font-bold">Why to Choose Us?</h2>
-      <p class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  <!-- Why to Choose Us -->
+  <div class="flex flex-col items-center h-full bg-white">
+    <h2 class="mt-20 text-xl font-bold">Why to Choose Us?</h2>
+    <p class="text-gray-700 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="flex mt-20 bg-white">
+      <div class="flex flex-col items-center flex-1 p-4">
+        <img src="./image/fast-delivery.png" alt="Delivery Icon" class="w-16 h-16 mb-8">
+        <h2 class="mb-2 text-xl font-bold">Fast Delivery</h2>
+        <p class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="flex flex-col items-center flex-1 p-4">
+        <img src="./image/high-quality.png" alt="High Quality Icon" class="w-16 h-16 mb-8">
+        <h2 class="mb-2 text-xl font-bold">Great Quality</h2>
+        <p class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+      <div class="flex flex-col items-center flex-1 p-4">
+        <img src="./image/discount.png" alt="Discount Icon" class="w-16 h-16 mb-8">
+        <h2 class="mb-2 text-xl font-bold">Discount</h2>
+        <p class="mb-20 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
     </div>
   </div>
 
-  <div class="flex mt-20 bg-white">
-    <div class="flex flex-col items-center flex-1 p-4 bg-white">
-      <img src="./image/fast-delivery.png" alt="Delivery Icon" class="w-16 h-16 mb-8">
-      <h2 class="mb-2 text-xl font-bold">Fast Delivery</h2>
-      <p class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+  <!-- Favorite Menu -->
+  <div class="w-full h-full p-4 pt-12 bg-gray-100">
+    <div class="text-center">
+      <h2 class="text-xl font-bold">Favorite Menu</h2>
+      <p class="mb-10 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
-    <div class="flex flex-col items-center flex-1 p-4 bg-white">
-      <img src="./image/high-quality.png" alt="High Quality Icon" class="w-16 h-16 mb-8">
-      <h2 class="mb-2 text-xl font-bold">Great Quality</h2>
-      <p class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-    </div>
-    <div class="flex flex-col items-center flex-1 p-4 bg-white">
-      <img src="./image/discount.png" alt="Discount Icon" class="w-16 h-16 mb-8">
-      <h2 class="mb-2 text-xl font-bold">Discount</h2>
-      <p class="mb-20 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-    </div>
-  </div>
-
-  <div class="flex bg-gray-100">
-    <div class="flex flex-col items-center justify-center w-full">
-      <h2 class="mt-20 text-xl font-bold">Favorite Menu</h2>
-      <p class="mb-20 text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </div>
-  </div>
-
-  <div class="w-full h-full min-h-screen p-4 pt-12 bg-gray-100">
     <div class="grid gap-14 md:grid-cols-3 md:gap-5">
       <div class="relative p-6 text-center bg-white shadow-xl rounded-xl">
-        <img src="./image/food.png" alt="Favorite Menu"
-          class="absolute top-0 -translate-x-1/2 -translate-y-20 h-[175px] w-[175px] left-1/2">
-        <h1 class="mb-3 text-xl font-medium mt-[120px] text-darken lg:px-14">TREE AND SHRUB PRUNING</h1>
+        <img src="./image/food.png" alt="Favorite Menu" class="mx-auto mb-6 h-[175px] w-[175px]">
+        <h1 class="mb-3 text-xl font-medium text-darken lg:px-14">TREE AND SHRUB PRUNING</h1>
         <p class="px-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure inventore amet
           modi accusantium vero perspiciatis, incidunt dicta sed aspernatur!</p>
-          <div class="absolute flex top-[110px] left-1/2 transform -translate-x-1/2">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5">
-          </div>
+        <div class="flex justify-center mt-4">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5">
+        </div>
       </div>
-
       <div class="relative p-6 text-center bg-white shadow-xl rounded-xl">
-        <img src="./image/food.png" alt="Favorite Menu"
-          class="absolute top-0 -translate-x-1/2 -translate-y-20 h-[175px] w-[175px] left-1/2">
-        <h1 class="mb-3 text-xl font-medium mt-[120px] text-darken lg:px-14">TREE AND SHRUB PRUNING</h1>
+        <img src="./image/food.png" alt="Favorite Menu" class="mx-auto mb-6 h-[175px] w-[175px]">
+        <h1 class="mb-3 text-xl font-medium text-darken lg:px-14">TREE AND SHRUB PRUNING</h1>
         <p class="px-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure inventore amet
           modi accusantium vero perspiciatis, incidunt dicta sed aspernatur!</p>
-          <div class="absolute flex top-[110px] left-1/2 transform -translate-x-1/2">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5">
-          </div>
+        <div class="flex justify-center mt-4">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5">
+        </div>
       </div>
-
       <div class="relative p-6 text-center bg-white shadow-xl rounded-xl">
-        <img src="./image/food.png" alt="Favorite Menu"
-          class="absolute top-0 -translate-x-1/2 -translate-y-20 h-[175px] w-[175px] left-1/2">
-        <h1 class="mb-3 text-xl font-medium mt-[120px] text-darken lg:px-14">TREE AND SHRUB PRUNING</h1>
+        <img src="./image/food.png" alt="Favorite Menu" class="mx-auto mb-6 h-[175px] w-[175px]">
+        <h1 class="mb-3 text-xl font-medium text-darken lg:px-14">TREE AND SHRUB PRUNING</h1>
         <p class="px-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure inventore amet
           modi accusantium vero perspiciatis, incidunt dicta sed aspernatur!</p>
-          <div class="absolute flex top-[110px] left-1/2 transform -translate-x-1/2">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
-            <img src="./image/star.png" alt="Rating" class="w-5 h-5">
-          </div>
+        <div class="flex justify-center mt-4">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5 mr-1">
+          <img src="./image/star.png" alt="Rating" class="w-5 h-5">
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="flex items-center justify-center h-screen">
-    <!-- Bagian Kiri: Gambar -->
+  <!-- Halal -->
+  <div class="flex items-center justify-center min-h-screen">
     <div class="w-1/2">
-      <img src="./image/food.png" alt="Gambar" class="h-auto w-[300px] ml-[300px]">
+      <img src="./image/food.png" alt="Gambar" class="h-auto w-[300px] mx-auto">
     </div>
-  
-    <!-- Bagian Kanan: Teks -->
     <div class="w-1/2">
-      <div class="p-6 mr-12">
+      <div class="p-6">
         <h1 class="mb-4 text-3xl font-bold">Halal Food</h1>
-        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
     </div>
   </div>
 
-  <div class="flex items-center justify-center h-screen bg-gray-100">
-    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
-      <!-- Card 1 -->
-      <div class="flex items-center p-6 bg-white rounded-lg shadow-md">
-          <img src="https://via.placeholder.com/150" alt="Profile Picture" class="w-20 h-20 mr-4 rounded-full">
-          <div>
-              <h2 class="mb-2 text-lg font-semibold">Nama 1</h2>
-              <p class="mb-4 text-gray-600">Posisi 1</p>
-              <a href="#" class="flex items-center text-blue-500">
-                <img src="./image/linkedin.png" class="w-4 h-4 mr-2" alt="LinkedIn Logo"/>
-              </a>
+  <!-- Team -->
+  <div class="flex items-center justify-center h-full bg-gray-100">
+    <div class="flex flex-col items-center px-8">
+      <h2 class="mt-20 text-xl font-bold md:mt-15">Team</h2>
+      <p class="mb-8 text-gray-700 md:mb-20">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
+        <!-- Card 1 -->
+        <div class="relative flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
+          <img src="./image/profile.png" alt="Profile Picture" class="w-20 h-20 mb-4 rounded-full">
+          <hr class="absolute w-1/2 transform -translate-y-1/2 border-gray-300 top-1/2">
+          <div class="text-center">
+            <h2 class="mb-2 text-lg font-semibold">Farkhan Amarrudin</h2>
+            <p class="mb-4 text-gray-600">Web Developer</p>
+            <a href="#" class="flex items-center justify-center text-blue-500">
+              <img src="./image/linkedin.png" class="w-4 h-4 mr-2" alt="LinkedIn Logo" />
+              <img src="./image/github.png" class="w-4 h-4" alt="GitHub Logo" />
+            </a>
           </div>
-      </div>
-      <!-- Card 2 -->
-      <div class="flex items-center p-6 bg-white rounded-lg shadow-md">
-          <img src="https://via.placeholder.com/150" alt="Profile Picture" class="w-20 h-20 mr-4 rounded-full">
-          <div>
-              <h2 class="mb-2 text-lg font-semibold">Nama 2</h2>
-              <p class="mb-4 text-gray-600">Posisi 2</p>
-              <a href="#" class="flex items-center text-blue-500">
-                <img src="./image/linkedin.png" class="w-4 h-4 mr-2" alt="LinkedIn Logo"/>
-              </a>
+        </div>
+        <!-- Card 2 -->
+        <div class="relative flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
+          <img src="./image/profile.png" alt="Profile Picture" class="w-20 h-20 mb-4 rounded-full">
+          <hr class="absolute w-1/2 transform -translate-y-1/2 border-gray-300 top-1/2">
+          <div class="text-center">
+            <h2 class="mb-2 text-lg font-semibold">Muh Bintang Mahardani</h2>
+            <p class="mb-4 text-gray-600">Web Developer</p>
+            <a href="#" class="flex items-center justify-center text-blue-500">
+              <img src="./image/linkedin.png" class="w-4 h-4 mr-2" alt="LinkedIn Logo" />
+              <img src="./image/github.png" class="w-4 h-4" alt="GitHub Logo" />
+            </a>
           </div>
-      </div>
-      <!-- Card 3 -->
-      <div class="flex items-center p-6 bg-white rounded-lg shadow-md">
-          <img src="https://via.placeholder.com/150" alt="Profile Picture" class="w-20 h-20 mr-4 rounded-full">
-          <div>
-              <h2 class="mb-2 text-lg font-semibold">Nama 3</h2>
-              <p class="mb-4 text-gray-600">Posisi 3</p>
-              <a href="#" class="flex items-center text-blue-500">
-                  <img src="./image/linkedin.png" class="w-4 h-4 mr-2" alt="LinkedIn Logo"/>
-              </a>
+        </div>
+        <!-- Card 3 -->
+        <div class="relative flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
+          <img src="./image/profile.png" alt="Profile Picture" class="w-20 h-20 mb-4 rounded-full">
+          <hr class="absolute w-1/2 transform -translate-y-1/2 border-gray-300 top-1/2">
+          <div class="text-center">
+            <h2 class="mb-2 text-lg font-semibold">Eka Tama Prasetya</h2>
+            <p class="mb-4 text-gray-600">Web Developer</p>
+            <a href="#" class="flex items-center justify-center text-blue-500">
+              <img src="./image/linkedin.png" class="w-4 h-4 mr-2" alt="LinkedIn Logo" />
+              <img src="./image/github.png" class="w-4 h-4" alt="GitHub Logo" />
+            </a>
           </div>
-      </div>
-      <!-- Card 4 -->
-      <div class="flex items-center p-6 bg-white rounded-lg shadow-md">
-          <img src="https://via.placeholder.com/150" alt="Profile Picture" class="w-20 h-20 mr-4 rounded-full">
-          <div>
-              <h2 class="mb-2 text-lg font-semibold">Nama 4</h2>
-              <p class="mb-4 text-gray-600">Posisi 4</p>
-              <a href="#" class="flex items-center text-blue-500">
-                <img src="./image/linkedin.png" class="w-4 h-4 mr-2" alt="LinkedIn Logo"/>
-              </a>
+        </div>
+        <!-- Card 4 -->
+        <div class="relative flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
+          <img src="./image/profile.png" alt="Profile Picture" class="w-20 h-20 mb-4 rounded-full">
+          <hr class="absolute w-1/2 transform -translate-y-1/2 border-gray-300 top-1/2">
+          <div class="text-center">
+            <h2 class="mb-2 text-lg font-semibold">Apriyanto Dwi Herlambang</h2>
+            <p class="mb-2 text-gray-600">Web Developer</p>
+            <a href="#" class="flex items-center justify-center text-blue-500">
+              <img src="./image/linkedin.png" class="w-4 h-4 mr-2" alt="LinkedIn Logo" />
+              <img src="./image/github.png" class="w-4 h-4" alt="GitHub Logo" />
+            </a>
           </div>
+        </div>
+        <div class="mb-20"></div>
       </div>
-  </div>
+    </div>
   </div>
 
+  <!-- Footer -->
+  <footer class="px-4 py-8 text-gray-800 bg-white md:px-8 lg:px-16">
+    <div class="flex flex-wrap items-center justify-between mb-4">
+      <div class="w-full mb-4 md:w-auto md:mb-0">
+        <p class="text-sm">Temukan kami di sosial media:</p>
+      </div>
+      <div class="flex items-center">
+        <img src="./image/facebook.png" alt="Facebook" class="h-6 mr-2 md:h-8" />
+        <img src="./image/instagram.png" alt="Instagram" class="h-6 mr-2 md:h-8" />
+        <img src="./image/twitter.png" alt="Twitter" class="h-6 md:h-8" />
+      </div>
+    </div>
+    <hr class="mb-4 border-gray-300" />
+    <div class="flex flex-wrap items-start justify-between mb-4">
+      <div class="w-full mb-4 md:w-auto md:mb-0">
+        <p class="text-sm">CIREBON FOOD</p>
+        <p class="text-xs">Kami membangun website Cirebon Food untuk memperkenalkan kekayaan masakan tradisional Cirebon
+          secara online dan memperluas jangkauan pasar.</p>
+      </div>
+      <div class="w-full md:w-auto">
+        <p class="text-sm">CONTACT</p>
+        <ul class="text-xs">
+          <li>Alamat: Slipi, Jakarta Barat - Indonesia</li>
+          <li>Email: cirebon_food@gmail.com</li>
+          <li>No. Telepon: +628 1234 5678</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="mb-4 border-gray-300" />
+    <div class="text-xs text-center">&copy; 2023 Copyright: 17.3A.26 | Teknologi Informasi | Web Programming 1 |
+      Kelompok 3 | UBSI Slipi, Jakarta Barat - Indonesia.</div>
+  </footer>
 </body>
 
 </html>
